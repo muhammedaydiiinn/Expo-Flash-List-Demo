@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "FlashList Demo",
+    "slug": "flash-list-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://icogen.vercel.app/api/icon?icon=26a1",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "https://icogen.vercel.app/api/splash?icon=26a1",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bacon.yolo1",
+      "splash": {
+        "image": "https://icogen.vercel.app/api/splash?icon=26a1&color=transparent",
+        "resizeMode": "cover",
+        "backgroundColor": "#FFFED3",
+        "dark": {
+          "image": "https://icogen.vercel.app/api/splash?icon=26a1&color=transparent",
+          "resizeMode": "cover",
+          "backgroundColor": "#000"
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "https://icogen.vercel.app/api/icon?icon=26a1&color_hex=00000000&padding=204",
+        "backgroundColor": "#FFFED3"
+      },
+      "package": "com.bacon.yolo1"
+    },
+    "web": {
+      "favicon": "https://icogen.vercel.app/api/favicon?icon=26a1&color_hex=00000000"
+    }
+  }
+}
