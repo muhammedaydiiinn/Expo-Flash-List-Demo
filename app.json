@@ -28,7 +28,7 @@
         "dark": {
           "image": "https://icogen.vercel.app/api/splash?icon=26a1&color=transparent",
           "resizeMode": "cover",
-          "backgroundColor": "#000"
+          "backgroundColor": "#000000"
         }
       }
     },

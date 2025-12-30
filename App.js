@@ -171,17 +171,12 @@ export default function App() {
 
 // You can explore the built-in icon families and icons on the web at:
 // https://icons.expo.fyi/
-export function TabBarIcon(props: {
-  name: React.ComponentProps<typeof Ionicons>["name"];
-  focused?: boolean;
-  color: string;
-}) {
-
+export function TabBarIcon(props) {
   let resolvedName = props.name;
+  // Eğer ikon seçiliyse (focused) ve "-outline" ile bitiyorsa, dolu halini göster
   if (props.focused && resolvedName.endsWith('-outline')) {
-    // @ts-expect-error: yolo
-    resolvedName = props.name.replace(/\-outline$/, "")
+    resolvedName = props.name.replace(/-outline$/, "");
   }
 
-  return <Ionicons size={48} style={{}} {...props} name={resolvedName} />;
+  return <Ionicons size={28} style={{ marginBottom: -3 }} {...props} name={resolvedName} />;
 }
